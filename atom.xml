@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binaryrhythm.github.io/"/>
-  <updated>2019-08-04T13:18:32.059Z</updated>
+  <updated>2019-08-04T13:42:42.059Z</updated>
   <id>https://binaryrhythm.github.io/</id>
   
   <author>
@@ -17,45 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Ubuntu18.04常用知识积累</title>
-    <link href="https://binaryrhythm.github.io/2019/08/04/Ubuntu18-04%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/"/>
-    <id>https://binaryrhythm.github.io/2019/08/04/Ubuntu18-04常用知识积累/</id>
-    <published>2019-08-04T13:18:32.091Z</published>
-    <updated>2019-08-04T13:18:32.059Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Ubuntu18-04自带程序"><a href="#Ubuntu18-04自带程序" class="headerlink" title="Ubuntu18.04自带程序"></a>Ubuntu18.04自带程序</h2><p>   1、默认安装了python2.7、python3,可通过如下命令查看版本号</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ python --version</span><br><span class="line">$ python3 --version</span><br></pre></td></tr></table></figure><h2 id="Ubuntu18-04搭建Python3开发环境"><a href="#Ubuntu18-04搭建Python3开发环境" class="headerlink" title="Ubuntu18.04搭建Python3开发环境"></a>Ubuntu18.04搭建Python3开发环境</h2><p>   1、安装pip3</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install python3-pip</span><br></pre></td></tr></table></figure><p>   2、安装Pycharm社区版</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ snap install pycharm-community --classic</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Ubuntu18-04自带程序&quot;&gt;&lt;a href=&quot;#Ubuntu18-04自带程序&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu18.04自带程序&quot;&gt;&lt;/a&gt;Ubuntu18.04自带程序&lt;/h2&gt;&lt;p&gt;   1、默认安装了python2.
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="https://binaryrhythm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Ubuntu" scheme="https://binaryrhythm.github.io/tags/Ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
     <title>一个小型的智能文稿写作的推荐系统思路</title>
     <link href="https://binaryrhythm.github.io/2019/08/04/%E4%B8%80%E4%B8%AA%E6%99%BA%E8%83%BD%E6%96%87%E7%A8%BF%E5%86%99%E4%BD%9C%E7%9A%84%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E6%80%9D%E8%B7%AF/"/>
     <id>https://binaryrhythm.github.io/2019/08/04/一个智能文稿写作的推荐系统思路/</id>
-    <published>2019-08-04T12:47:49.584Z</published>
-    <updated>2019-08-04T12:47:49.560Z</updated>
+    <published>2019-08-04T13:42:42.087Z</published>
+    <updated>2019-08-04T13:42:42.059Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="背景及思路介绍"><a href="#背景及思路介绍" class="headerlink" title="背景及思路介绍"></a>背景及思路介绍</h2><p>   背景：对于机关的公文写作，想必不少人是有所耳闻的，笔者作为一个初学者，经历了2个月的文稿写作工作后，觉得在海量的评论文章中能汲取到一些营养。当然，这些评论文章或许只能对写一些小的材料有帮助，对写十分正式的大材料等，参考价值或许不大。但对于笔者这样长年不写材料的人，突然、偶尔要写稿子，有个小型智能文稿推荐系统来提供参考文章，还是很不错的。<br>   简要思路：选取几个有名的评论文章网站，爬取所有的评论文章存储起来，提取关键内容点，建立关键字索引；当需要写材料的时候就能派上用场了。</p><h2 id="爬取人民网评文章"><a href="#爬取人民网评文章" class="headerlink" title="爬取人民网评文章"></a>爬取人民网评文章</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="背景及思路介绍"><a href="#背景及思路介绍" class="headerlink" title="背景及思路介绍"></a>背景及思路介绍</h2><p>   背景：对于机关的公文写作，想必不少人是有所耳闻的，笔者作为一个初学者，经历了2个月的文稿写作工作后，觉得在海量的评论文章中能汲取到一些营养。当然，这些评论文章或许只能对写一些小的材料有帮助，对写十分正式的大材料等，参考价值或许不大。但对于笔者这样长年不写材料的人，突然、偶尔要写稿子，有个小型智能文稿推荐系统来提供参考文章，还是很不错的。<a id="more"></a><br>   简要思路：选取几个有名的评论文章网站，爬取所有的评论文章存储起来，提取关键内容点，建立关键字索引；当需要写材料的时候就能派上用场了。</p><h2 id="爬取人民网评文章"><a href="#爬取人民网评文章" class="headerlink" title="爬取人民网评文章"></a>爬取人民网评文章</h2>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;背景及思路介绍&quot;&gt;&lt;a href=&quot;#背景及思路介绍&quot; class=&quot;headerlink&quot; title=&quot;背景及思路介绍&quot;&gt;&lt;/a&gt;背景及思路介绍&lt;/h2&gt;&lt;p&gt;   背景：对于机关的公文写作，想必不少人是有所耳闻的，笔者作为一个初学者，经历了2个月的文稿写作工
-      
+      &lt;h2 id=&quot;背景及思路介绍&quot;&gt;&lt;a href=&quot;#背景及思路介绍&quot; class=&quot;headerlink&quot; title=&quot;背景及思路介绍&quot;&gt;&lt;/a&gt;背景及思路介绍&lt;/h2&gt;&lt;p&gt;   背景：对于机关的公文写作，想必不少人是有所耳闻的，笔者作为一个初学者，经历了2个月的文稿写作工作后，觉得在海量的评论文章中能汲取到一些营养。当然，这些评论文章或许只能对写一些小的材料有帮助，对写十分正式的大材料等，参考价值或许不大。但对于笔者这样长年不写材料的人，突然、偶尔要写稿子，有个小型智能文稿推荐系统来提供参考文章，还是很不错的。
     
     </summary>
     
@@ -63,6 +35,29 @@
     
     
       <category term="推荐系统" scheme="https://binaryrhythm.github.io/tags/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu18.04常用知识积累</title>
+    <link href="https://binaryrhythm.github.io/2019/08/04/Ubuntu18-04%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/"/>
+    <id>https://binaryrhythm.github.io/2019/08/04/Ubuntu18-04常用知识积累/</id>
+    <published>2019-08-04T13:42:29.942Z</published>
+    <updated>2019-08-04T13:42:29.914Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Ubuntu18-04自带程序"><a href="#Ubuntu18-04自带程序" class="headerlink" title="Ubuntu18.04自带程序"></a>Ubuntu18.04自带程序</h2><p>   1、默认安装了python2.7、python3,可通过如下命令查看版本号</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ python --version</span><br><span class="line">$ python3 --version</span><br></pre></td></tr></table></figure><a id="more"></a> <h2 id="Ubuntu18-04搭建Python3开发环境"><a href="#Ubuntu18-04搭建Python3开发环境" class="headerlink" title="Ubuntu18.04搭建Python3开发环境"></a>Ubuntu18.04搭建Python3开发环境</h2><p>   1、安装pip3</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install python3-pip</span><br></pre></td></tr></table></figure><p>   2、安装Pycharm社区版</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ snap install pycharm-community --classic</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Ubuntu18-04自带程序&quot;&gt;&lt;a href=&quot;#Ubuntu18-04自带程序&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu18.04自带程序&quot;&gt;&lt;/a&gt;Ubuntu18.04自带程序&lt;/h2&gt;&lt;p&gt;   1、默认安装了python2.7、python3,可通过如下命令查看版本号&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ python --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ python3 --version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="https://binaryrhythm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Ubuntu" scheme="https://binaryrhythm.github.io/tags/Ubuntu/"/>
     
   </entry>
   
